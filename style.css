@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+html {
+  --bg-color: url(assets/markus-spiske-jUWw_NEXjDw-unsplash.jpg);
+  --text-color: white;
+  --primary-color-dark: linear-gradient(180deg, limegreen, deepskyblue  );
+
+}
+
+body{
+  background-image: var(--bg-color);
+  color: var(--text-color);
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+
+}
+.container {
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+  backdrop-filter: blur(5px) saturate(194%);
+  -webkit-backdrop-filter: blur(5px) saturate(194%);
+  background-color: rgba(42, 46, 58, 0.09);
+  border-radius: 12px;
+  border: 2px solid white;
+  padding: 5px;
+  justify-content: center;
+  
+}
+img {
+  width: 100%;
+}
+img.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 3.7px;
+  border: white solid 4px;
+}
+h1 {
+  font-size: 32px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.username {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  opacity: 0.8;
+  font-size: 15px;
+
+}
+ul {
+  list-style: none;
+  margin: 48px 0;
+  border-color: white 2px;
+
+}
+
+
+ ul li a {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  backdrop-filter: blur(5px) saturate(194%);
+  -webkit-backdrop-filter: blur(5px) saturate(194%);
+  background-color: rgba(42, 46, 58, 0.09);
+  border: 2px solid white;
+  margin-bottom: 16px;
+  border-radius: 6px;
+
+}
+i {
+  align-items: center;
+  width: 10%;
+}
+
+ ul li a:hover {
+  background: var(--primary-color-dark);
+  transition: background 600ms;
+  color: black;
+  border-color: black;
+
+}
+
+footer {
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 0.3;
+}
+
