@@ -7,9 +7,9 @@ a {
   text-decoration: none;
 }
 html {
-  --bg-color: url(assets/markus-spiske-jUWw_NEXjDw-unsplash.jpg);
+  --bg-color: linear-gradient(180deg, black, SlateBlue );
   --text-color: white;
-  --primary-color-dark: linear-gradient(180deg, limegreen, deepskyblue  );
+  --primary-color-dark: linear-gradient(180deg, #6959CD, black);
 
 }
 
@@ -87,8 +87,8 @@ i {
  ul li a:hover {
   background: var(--primary-color-dark);
   transition: background 600ms;
-  color: black;
-  border-color: black;
+  color: white;
+  border-color: white;
 
 }
 
